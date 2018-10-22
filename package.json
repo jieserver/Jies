@@ -1,0 +1,18 @@
+{
+  "name": "Jies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jieserver/Jies.git",
+  "author": "signhuwei <22626612@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "fkill": "^5.3.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --watch --timeout 3000",
+    "test-chaos": "mocha --watch --timeout 3000 test/chaos.spec.js",
+    "test-jies": "mocha --watch --timeout 3000 test/index.spec.js"
+  }
+}
