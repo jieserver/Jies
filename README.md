@@ -1,9 +1,14 @@
 # Jies
-JieServer's base core
+![Chaos](http://on-img.com/chart_image/5bce75bbe4b0d4d65c3a779d.png)
+天地玄黄,宇宙洪荒
 宇宙最初是一团混沌,由5种基本元素组成
 ![JIES](http://on-img.com/chart_image/5bc3f367e4b0d4d65c2cbfe2.png)
-* chaos混沌:
-运行时的上下文
+## chaos混沌:
+运行时的上下文,混沌中分有阴阳
+* 阴:后台运行的同步和进程监控服务,每台服务器上有且仅有一个
+* 阳:每个jie中自带的后台代理服务,jie所代表的命名空间共享一个
+## jie炁:
+炁是一个带有命名空间的服务集合,由开发者按下面规则自己完成具体服务功能
 * $金:
 全局唯一实例,但在多个混沌中采用代理运行
 * @木:
