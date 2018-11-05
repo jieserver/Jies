@@ -1,5 +1,5 @@
 {
-  "name": "Jies",
+  "name": "jies",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/jieserver/Jies.git",
@@ -11,8 +11,9 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha --watch --timeout 3000",
+    "test": "mocha",
     "test-chaos": "mocha --watch --timeout 3000 test/chaos.spec.js",
-    "test-jies": "mocha --watch --timeout 3000 test/index.spec.js"
+    "test-jies": "mocha --watch --timeout 3000 test/jies.spec.js",
+    "test-nothing": "mocha --timeout 3000 test/nothing.spec.js"
   }
 }
