@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Try",
+            "program": "${workspaceFolder}/try.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Index",
             "program": "${workspaceFolder}/index.js"
         },
